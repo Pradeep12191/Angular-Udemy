@@ -63,6 +63,7 @@ export class ServerElementComponent implements
     console.log('ngAfterContentInit called!');
     // ngAfterContentInit doesnt have access to view child property
     // only content child property can be accessed
+    // git change
     console.log('Text content on AfterContentInit', this.paragraph.nativeElement.textContent);
     console.log('Child Content on ngAfterContentInit', this.contentParagraph.nativeElement.textContent);
   }
